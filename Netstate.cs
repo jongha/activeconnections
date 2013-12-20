@@ -46,7 +46,7 @@ namespace ActiveConnections
                 if (str != null)
                 {
 
-                    string line = str.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)[1];
+                    string line = str.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)[2];
                     Match match = Regex.Match(line, "^(.*):(\\d{1,})");
 
                     if (match.Success)
