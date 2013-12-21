@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveConnections", "ActiveConnections.csproj", "{14787319-7F99-4185-B586-D7E7245A30AB}"
 EndProject
 Global

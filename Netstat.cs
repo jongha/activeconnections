@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 
 namespace ActiveConnections
 {
-    class Netstate
+    class Netstat
     {
         public struct NetstateData
         {

@@ -47,8 +47,8 @@ namespace ActiveConnections
             }
 
 
-            Netstate netState = new Netstate();
-            Netstate.NetstateData netStateData = netState.GetConnections(num);
+            Netstat netState = new Netstat();
+            Netstat.NetstateData netStateData = netState.GetConnections(num);
 
             Console.WriteLine("Total Connection Count: " + netStateData.TotalCount);
             if (netStateData.Addresses.Count > 0)
