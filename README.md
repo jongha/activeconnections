@@ -1,6 +1,6 @@
 # Active Connections
 <!---
-[![Build Status](https://travis-ci.org/jongha/dotnet-activeconnections.png?branch=master)](https://travis-ci.org/jongha/dotnet-activeconnections)
+[![Build Status](https://travis-ci.org/jongha/activeconnections.png?branch=master)](https://travis-ci.org/jongha/activeconnections)
 -->
 Print active/established network connections. It's console application using .net framework on Windows. It is useful to check bottlenecks or suffering of a specific IP or the status of the DDoS attack.
 
@@ -30,4 +30,4 @@ Print active/established network connections. It's console application using .ne
 
 ## License
 
-dotnet-activeconnections is available under the terms of the MIT License.
+activeconnections is available under the terms of the MIT License.
