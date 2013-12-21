@@ -2,7 +2,7 @@
 <!---
 [![Build Status](https://travis-ci.org/jongha/dotnet-activeconnections.png?branch=master)](https://travis-ci.org/jongha/dotnet-activeconnections)
 -->
-Print active/established network connections. It's console application using .net framework.
+Print active/established network connections. It's console application using .net framework on Windows. It is useful to check bottlenecks or suffering of a specific IP or the status of the DDoS attack.
 
 ## Usage
 
