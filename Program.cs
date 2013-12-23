@@ -24,7 +24,7 @@ namespace ActiveConnections
 
             var p = new OptionSet() {
                 { "n|numeric=", "This option sets the minimum count of active network connections.", v => num = Convert.ToInt32(v) },
-                { "h|help",  "Show help.", v => show_help = v != null },
+                { "h|?|help",  "Show help.", v => show_help = v != null },
             };
 
             List<string> extra;
@@ -34,7 +34,6 @@ namespace ActiveConnections
             }
             catch (OptionException e)
             {
-                Console.Write("greet: ");
                 Console.WriteLine(e.Message);
                 Console.WriteLine(string.Format("Try `{0} --help' for more information.", fileName));
                 return;
