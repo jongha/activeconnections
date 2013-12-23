@@ -71,7 +71,7 @@ namespace ActiveConnections
 
         static void ShowHelp(OptionSet p)
         {
-            Console.WriteLine(string.Format("Usage: {0} [-n|numeric] [-h|help]", GetFileName()));
+            Console.WriteLine(string.Format("Usage: {0} [-n|numeric] [-h|?|help]", GetFileName()));
             Console.WriteLine("Print active/established network connections.");
             Console.WriteLine();
             Console.WriteLine("Options:");

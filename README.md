@@ -12,7 +12,7 @@ Print active/established network connections. It's console application using .ne
     Options:
       -n, --numeric=VALUE        This option sets the minimum count of active
                                    network connections.
-      -h, --help                 Show help.
+      -h, -?, --help                 Show help.
 
 ### Output
 
